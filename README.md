@@ -1,2 +1,2 @@
 # Poka-Yoke Genérico
-### programa desenvolvido para linhas de montagem controladas usando CLP Altus Duo351
+Programa desenvolvido para controlar linhas de montagem usando CLP Altus Duo351
