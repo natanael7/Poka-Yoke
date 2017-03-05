@@ -188,17 +188,15 @@ Para editar o projeto baixe o [Aquivo ZIP], e abra o aquivo principal `poka-yoke
 
 A pasta `exports/` contém as POUs, telas, variáveis globais e bibliotecas utilizadas separadas por arquivo para consulta modular do código.
 
+---
 
 ##Sobre
 
-O projeto Poka-Yoke genérico foi inicialmente deselvolvido e caracterizado para linhas de montagem da emprasa STIHL Ferramentas Motorizadas Ltda.
+O projeto Poka-Yoke genérico foi inicialmente deselvolvido e caracterizado para linhas de montagem da empresa STIHL Ferramentas Motorizadas Ltda.
 
-Desenvolver: Natanael J. Rabello  
-*(Técnico Eletrônico)*  
-*email: natanaelx10@hotmail.com*  
-
+####Deselvolvimento
+Desenvolver: Natanael Josué Rabello <a href="mailto:natanaelx10@hotmail.com">*email*</a>  
 Orientador: Diogo Stork Diehl  
-*(Técnico Eletrônico)*  
-*email: -*
+
 
 .....
