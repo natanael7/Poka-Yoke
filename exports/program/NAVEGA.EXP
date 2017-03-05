@@ -1,0 +1,18 @@
+
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '' *)
+(* @OBJECTFLAGS := '0, 8' *)
+(* @SYMFILEFLAGS := '2048' *)
+PROGRAM NAVEGA
+VAR
+	ControleTelas : NAVIGATION;
+	ListaTelas 	: ARRAY [0..30] OF STRING(10);
+END_VAR
+(* @END_DECLARATION := '0' *)
+(* Adiciona a tela MAIN como tela principal *)
+ListaTelas[0] := 'MAIN';
+
+(* Ativa o controle automático de navegação somente pelo teclado *)
+ControleTelas(ENABLE_UPDW := FALSE, VISU_LIST := ListaTelas, UP := FALSE , DOWN := FALSE);
+
+END_PROGRAM

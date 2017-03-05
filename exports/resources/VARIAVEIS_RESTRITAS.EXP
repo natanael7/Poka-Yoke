@@ -1,0 +1,17 @@
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @GLOBAL_VARIABLE_LIST := 'variaveis_restritas' *)
+(* @PATH := '' *)
+(* @OBJECTFLAGS := '0, 8' *)
+(* @SYMFILEFLAGS := '2048' *)
+VAR_GLOBAL CONSTANT
+	CREDIT_STRING_ROW: ARRAY [1..4] OF STRING := 'DESENVOLVIDO POR:', 'NATANAEL JOSUE RABELLO', 'TECNICO ELETRONICO PROGRAMADOR', 'EMAIL:NATANAELX10@HOTMAIL.COM';
+	CREDIT_SIZE: ARRAY [1..4] OF USINT := 17, 22, 30, 29; (*numero de caracteres das strings acima*)
+END_VAR
+(* NAO APAGUE AQUI - RESTRITO*)
+(* @OBJECT_END := 'variaveis_restritas' *)
+(* @CONNECTIONS := variaveis_restritas
+FILENAME : ''
+FILETIME : 0
+EXPORT : 0
+NUMOFCONNECTIONS : 0
+*)

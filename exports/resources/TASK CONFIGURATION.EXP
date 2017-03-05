@@ -1,0 +1,29 @@
+
+RESOURCE
+
+TASK PRINCIPAL (PRIORITY := 1, INTERVAL := T#1ms);
+PLC_PRG();
+{Additional_info : 1,0,0,0,1,4294967295}
+END_TASK
+
+TASK NAVIGATION (PRIORITY := 1, INTERVAL := T#20ms);
+NAVEGA();
+{Additional_info : 1,0,0,0,1,4294967295}
+END_TASK
+
+TASK VISUALIZATION (PRIORITY := 1, INTERVAL := T#500ms);
+MAINTARGETVISU_PAINT_CODE
+{Additional_info : 1,0,0,0,1,4294967295}
+END_TASK
+
+TASK KEYBOARD_USAGE (PRIORITY := 1, INTERVAL := T#20ms);
+MAINTARGETVISU_INPUT_CODE
+{Additional_info : 1,0,0,0,1,4294967295}
+END_TASK
+{event_task : 'start','Called when program starts','','FUNCTION CallbackStart$R$NVAR_INPUT$R$N$TdwEvent: INT;$R$N$TdwFilter: INT;$R$N$TdwOwner: INT;$R$NEND_VAR$R$N'}{event_task_info : 0,1,34303}
+{event_task : 'stop','Called when program stops','','FUNCTION CallbackStop: DWORD$R$NVAR_INPUT$R$N$TdwEvent: INT;$R$N$TdwFilter: INT;$R$N$TdwOwner: INT;$R$NEND_VAR$R$N'}{event_task_info : 0,2,34303}
+{event_task : 'before_reset','Called before reset takes place','','FUNCTION CallbackReset: DWORD$R$NVAR_INPUT$R$N$TdwEvent: INT;$R$N$TdwFilter: INT;$R$N$TdwOwner: INT;$R$NEND_VAR$R$N'}{event_task_info : 0,3,34303}
+{event_task : 'after_reset','Called after reset took place','','FUNCTION CallbackAfterReset: DWORD$R$NVAR_INPUT$R$N$TdwEvent: INT;$R$N$TdwFilter: INT;$R$N$TdwOwner: INT;$R$NEND_VAR$R$N'}{event_task_info : 0,4,34303}
+{event_task : 'debug_loop','Debug loop at breakpoint','','FUNCTION CallbackDebugLoop: DWORD$R$NVAR_INPUT$R$N$TdwEvent: INT;$R$N$TdwFilter: INT;$R$N$TdwOwner: INT;$R$NEND_VAR$R$N'}{event_task_info : 0,31,34303}
+
+END_RESOURCE
