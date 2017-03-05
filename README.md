@@ -65,6 +65,8 @@ A ordem de ligação das Entradas e Saídas (CLP Altus Duo351), segue o seguinte
 
 ---
 
+##Funcionamento
+
 ###Primeira Implementação
 
 Com o programa descarregado no CLP, a primeira tela apresentada será a tela de Configuração dos Parâmetros, onde é determinado o número de sensores, parafusadeira, progbits e modelos.
@@ -168,6 +170,35 @@ Feito a alteração, pressione tecla MAIN ou ESC para sair. O programa salvará 
 
 ---
 
-###Sobre
+##Programação
+
+Para editar o projeto baixe o [Aquivo ZIP], e abra o aquivo principal `poka-yoke.pro` com o [Master Tool IEC].
+
+[Arquivo ZIP]:https://github.com/natanael7/Poka-Yoke/archive/master.zip 
+
+[Master Tool IEC]:http://www.altus.com.br/site_ptbr/index.php?option=com_downloadsaltus&view=downloadsaltus&Itemid=54&newpath=Portugues%2FProdutos%2FMtool%2F01%20Software%2FMT8200%20-%20MasterTool%20IEC%2FSoftware) "Download Master Tool IEC"
+
+###Estrutura
+
+**POUs**
+<img src="https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/assets/functions.png">  
+
+**TELAS**
+<img src="https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/assets/vizualizations.png">
+
+A pasta `exports/` contém as POUs, telas, variáveis globais e bibliotecas utilizadas separadas por arquivo para consulta modular do código.
+
+
+##Sobre
+
+O projeto Poka-Yoke genérico foi inicialmente deselvolvido e caracterizado para linhas de montagem da emprasa STIHL Ferramentas Motorizadas Ltda.
+
+Desenvolver: Natanael J. Rabello  
+*(Técnico Eletrônico)*  
+*email: natanaelx10@hotmail.com*  
+
+Orientador: Diogo Stork Diehl  
+*(Técnico Eletrônico)*  
+*email: -*
 
 .....

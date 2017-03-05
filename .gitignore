@@ -20,6 +20,7 @@ $RECYCLE.BIN/
 *.lnk
 
 ### custom ###
+reference/
 DEFAULT.DFR
 docs/(edition)Poka-Yoke_GUIA_DE_UTILIZACAO.docx
 docs/(edition)Poka-Yoke_MANUAL_DA_PROGRAMACAO.docx
