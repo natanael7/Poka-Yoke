@@ -172,7 +172,7 @@ Feito a alteração, pressione tecla MAIN ou ESC para sair. O programa salvará 
 
 ##Programação
 
-Para editar o projeto baixe o [Aquivo ZIP], e abra o aquivo principal `poka-yoke.pro` com o [Master Tool IEC].
+Para editar o projeto baixe o [Arquivo ZIP] e abra o aquivo principal `poka-yoke.pro` com o [Master Tool IEC].
 
 [Arquivo ZIP]:https://github.com/natanael7/Poka-Yoke/archive/master.zip 
 
@@ -180,13 +180,13 @@ Para editar o projeto baixe o [Aquivo ZIP], e abra o aquivo principal `poka-yoke
 
 ###Estrutura
 
-**POUs**
+**POUs**  
 <img src="https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/assets/functions.png">  
 
-**TELAS**
+**TELAS**  
 <img src="https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/assets/vizualizations.png">
 
-A pasta `exports/` contém as POUs, telas, variáveis globais e bibliotecas utilizadas separadas por arquivo para consulta modular do código.
+A pasta `exports/` contém as POUs, telas, variáveis globais e bibliotecas utilizadas separadas por arquivo para consulta do código puro.
 
 ---
 
@@ -194,9 +194,7 @@ A pasta `exports/` contém as POUs, telas, variáveis globais e bibliotecas util
 
 O projeto Poka-Yoke genérico foi inicialmente deselvolvido e caracterizado para linhas de montagem da empresa STIHL Ferramentas Motorizadas Ltda.
 
-####Deselvolvimento
-Desenvolver: Natanael Josué Rabello <a href="mailto:natanaelx10@hotmail.com">*email*</a>  
-Orientador: Diogo Stork Diehl  
+*Autor: Natanael Josué Rabello*  
+*Orientador: Diogo Stork Diehl*
 
-
-.....
+........
