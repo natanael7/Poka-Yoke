@@ -24,50 +24,51 @@ O objetivo deste programa é tornar, o processo de aplicação e alteração da 
 
 A ordem de ligação das Entradas e Saídas (CLP Altus Duo351), segue o seguinte padrão utilizado no programa: 
 
-- **Entradas:**  
-   I0.0 -> TOMADA KAP (feedback)  
-   I0.1 -> LED SENSOR 1  
-   I0.2 -> LED SENSOR 2  
-   I0.3 -> LED SENSOR 3  
-   I0.4 -> LED SENSOR 4  
-   I0.5 -> LED SENSOR 5  
-   I0.6 -> LED SENSOR 6  
-   I0.7 -> LED SENSOR 7  
-   I1.0 -> LED SENSOR 8  
-   I1.1 -> LED SENSOR 9  
-   I1.2 -> LED SENSOR 10  
-   I1.3 -> LED SENSOR 11  
-   I1.4 -> LED SENSOR 12  
-   I1.5 -> LED SENSOR 13  
-   I1.6 -> LED SENSOR 14  
-   I1.7 -> *(nada)*  
-   I2.0 -> TORQUE OK PARAFUSADEIRA  
-   I2.1 -> TORQUE NOK PARAFUSADEIRA  
+    **Entradas:**  
 
-- **Saídas:**  
-   Q0.0 -> BATENTE *(liberação)*  
-   Q0.1 -> LED SENSOR 1  
-   Q0.2 -> LED SENSOR 2  
-   Q0.3 -> LED SENSOR 3  
-   Q0.4 -> LED SENSOR 4  
-   Q0.5 -> LED SENSOR 5  
-   Q0.6 -> LED SENSOR 6  
-   Q0.7 -> LED SENSOR 7  
-   Q1.0 -> LED SENSOR 8  
-   Q1.1 -> LED SENSOR 9  
-   Q1.2 -> PROGBIT 4 PARAFUSADEIRA 	|   LED SENSOR 10  
-   Q1.3 -> PROGBIT 3 PARAFUSADEIRA 	|   LED SENSOR 11  
-   Q1.4 -> PROGBIT 2 PARAFUSADEIRA 	|   LED SENSOR 12  
-   Q1.5 -> PROGBIT 1 PARAFUSADEIRA 	|   LED SENSOR 13  
-   Q1.6 -> RESET PARAFUSADEIRA 		|   LED SENSOR 14  
-   Q1.7 -> ENABLE PARAFUSADEIRA  
+    I0.0 -> TOMADA KAP (feedback)  
+    I0.1 -> LED SENSOR 1  
+    I0.2 -> LED SENSOR 2  
+    I0.3 -> LED SENSOR 3  
+    I0.4 -> LED SENSOR 4  
+    I0.5 -> LED SENSOR 5  
+    I0.6 -> LED SENSOR 6  
+    I0.7 -> LED SENSOR 7  
+    I1.0 -> LED SENSOR 8  
+    I1.1 -> LED SENSOR 9  
+    I1.2 -> LED SENSOR 10  
+    I1.3 -> LED SENSOR 11  
+    I1.4 -> LED SENSOR 12  
+    I1.5 -> LED SENSOR 13  
+    I1.6 -> LED SENSOR 14  
+    I1.7 -> *(nada)*  
+    I2.0 -> TORQUE OK PARAFUSADEIRA  
+    I2.1 -> TORQUE NOK PARAFUSADEIRA  
+
+    **Saídas:**  
+    Q0.0 -> BATENTE *(liberação)*  
+    Q0.1 -> LED SENSOR 1  
+    Q0.2 -> LED SENSOR 2  
+    Q0.3 -> LED SENSOR 3  
+    Q0.4 -> LED SENSOR 4  
+    Q0.5 -> LED SENSOR 5  
+    Q0.6 -> LED SENSOR 6  
+    Q0.7 -> LED SENSOR 7  
+    Q1.0 -> LED SENSOR 8  
+    Q1.1 -> LED SENSOR 9  
+    Q1.2 -> PROGBIT 4 PARAFUSADEIRA 	|   LED SENSOR 10  
+    Q1.3 -> PROGBIT 3 PARAFUSADEIRA 	|   LED SENSOR 11  
+    Q1.4 -> PROGBIT 2 PARAFUSADEIRA 	|   LED SENSOR 12  
+    Q1.5 -> PROGBIT 1 PARAFUSADEIRA 	|   LED SENSOR 13  
+    Q1.6 -> RESET PARAFUSADEIRA 		|   LED SENSOR 14  
+    Q1.7 -> ENABLE PARAFUSADEIRA  
 
 
 ###Primeira Implementação
 
 Com o programa descarregado no CLP, a primeira tela apresentada será a tela de Configuração dos Parâmetros, onde é determinado o número de sensores, parafusadeira, progbits e modelos.
 
-![Screen ParametersConfig](https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img6.jpg)
+![Screen ParametersConfig](https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img6.jpg =250x)
 
 Para alterar os valores, alterne entre as teclas SETA\_ESQUERDA e SETA\_DIREITA, então pressione ENTER, apegue o valor anterior com a SETA_ESQUERDA e digite o novo valor no teclado numérico. Para salvar e sair pressione ENTER novamente, caso não queira salvar, pressione ESC.  
 
@@ -82,7 +83,7 @@ Vide tópico de Parametrização para maiores detalhes desta tela e alterações
 
 A tela de operação do montador apresenta os modelos, botões de controle (zerar, reset, setup) e os sensores ativos no momento.
 
-![Screen Main](https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img3.jpg)
+![Screen Main](https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img3.jpg =250x)
 
 A sessão de modelos se ajustará conforme o número de modelos configurado na tela de parâmetros, caso esse número seja maior que 4, aparecerá um botão na tecla F7 para acessar os outros modelos.  
 
@@ -106,7 +107,7 @@ Para descobrir a senha, basta multiplicar o número pela letra, convertendo-a do
 
 Exemplo: Chave: 3A – senha: 3 X 10 = 30. Pois A = 10.  
 
-![Screen Password](https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img4.jpg)
+![Screen Password](https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img4.jpg =250x)
 
 Para escrever a senha, entre no campo password alternando entre as teclas SETA\_ESQUERDA e SETA_DIREITA, digite o valor no teclado numérico e pressione ENTER. Se a senha estiver correta, irá para a tela SETUP que queremos.
 
@@ -119,7 +120,7 @@ Os ativos são indicados pelos campos I, II e III. O campo P destina-se a seleç
 
 O código dos sensores é o seu próprio número, já para a parafusadeira o código é 15.	Por exemplo, para ligar o sensor 2 e a parafusadeira com programa 5 na etapa 1, a sequência fica a seguinte:  
 
-![Screen Setup](https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img5.jpg)
+![Screen Setup](https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img5.jpg =250x)
 
 Para alterar os valores, alterne entre as teclas SETA\_ESQUERDA e SETA_DIREITA, digite o número do sensor no teclado numérico e pressione ENTER. Não é possível colocar sensores repetidos na mesma etapa, nem um sensor maior do que o número de sensores configurado.  
 
@@ -134,7 +135,7 @@ Para entrar na tela de parâmetros, é necessário que se esteja na tela SETUP, 
 
 Aqui é possível configurar o número de sensores, parafusadeira, progbits e modelos. Para alterá-los, alterne entre as teclas SETA\_ESQUERDA e SETA_DIREITA, digite o novo valor no teclado numérico e pressione ENTER.
 
-![Screen ParametersConfig2](https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img1.jpg)
+![Screen ParametersConfig2](https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img1.jpg =250x)
 
 Após feito as alterações, pressione a tecla MAIN ou F7 para sair.  
 
@@ -147,7 +148,7 @@ OBS: O programa altera o limite de sensores e parafusadeira conforme a disponibi
 
 O programa original nomeia os modelos como 1000 + número do modelo. *[1001-1015]*. Para alterar o nome para outro número, pressione a tecla ZERO [0] na tela principal. O programa entrará em Modo Edição, assim basta alternar entre as teclas SETA\_ESQUERDA e SETA_DIREITA para selecionar o modelo a ser alterado, digitar o novo nome no teclado numérico e pressionar ENTER.
 
-![Screen ModelsEdition](https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img7.jpg)
+![Screen ModelsEdition](https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img7.jpg =250x)
 
 Feito a alteração, pressione tecla MAIN ou ESC para sair. O programa salvará e voltará a rodar o ciclo.  
 
