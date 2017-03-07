@@ -172,6 +172,7 @@ Feito a alteração, pressione tecla MAIN ou ESC para sair. O programa salvará 
 
 ##Programação
 
+Linguagem utilizada na programação: ST (Structured text).
 Para editar o projeto baixe o [Arquivo ZIP] e abra o aquivo principal `poka-yoke.pro` com o [Master Tool IEC].
 
 [Arquivo ZIP]:https://github.com/natanael7/Poka-Yoke/archive/master.zip 
