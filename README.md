@@ -72,7 +72,7 @@ A ordem de ligação das Entradas e Saídas (CLP Altus Duo351), segue o seguinte
 Com o programa descarregado no CLP, a primeira tela apresentada será a tela de Configuração dos Parâmetros, onde é determinado o número de sensores, parafusadeira, progbits e modelos.
 
 <!--![Screen ParametersConfig](https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img6.jpg)-->
-<img src="https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img6.jpg" width="400">
+<img src="https://raw.githubusercontent.com/natanael7/gh-assets/master/Poka-Yoke/photos/img6.jpg" width="400">
 
 Para alterar os valores, alterne entre as teclas SETA\_ESQUERDA e SETA\_DIREITA, então pressione ENTER, apegue o valor anterior com a SETA_ESQUERDA e digite o novo valor no teclado numérico. Para salvar e sair pressione ENTER novamente, caso não queira salvar, pressione ESC.  
 
@@ -89,7 +89,7 @@ Vide tópico de Parametrização para maiores detalhes desta tela e alterações
 A tela de operação do montador apresenta os modelos, botões de controle (zerar, reset, setup) e os sensores ativos no momento.
 
 <!--![Screen Main](https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img3.jpg)-->
-<img src="https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img3.jpg" width="500">
+<img src="https://raw.githubusercontent.com/natanael7/gh-assets/master/Poka-Yoke/photos/img3.jpg" width="500">
 
 A sessão de modelos se ajustará conforme o número de modelos configurado na tela de parâmetros, caso esse número seja maior que 4, aparecerá um botão na tecla F7 para acessar os outros modelos.  
 
@@ -115,7 +115,7 @@ Para descobrir a senha, basta multiplicar o número pela letra, convertendo-a do
 Exemplo: Chave: 3A – senha: 3 X 10 = 30. Pois A = 10.  
 
 <!--![Screen Password](https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img4.jpg)-->
-<img src="https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img4.jpg" width="400">
+<img src="https://raw.githubusercontent.com/natanael7/gh-assets/master/Poka-Yoke/photos/img4.jpg" width="400">
 
 Para escrever a senha, entre no campo password alternando entre as teclas SETA\_ESQUERDA e SETA_DIREITA, digite o valor no teclado numérico e pressione ENTER. Se a senha estiver correta, irá para a tela SETUP que queremos.
 
@@ -130,7 +130,7 @@ Os ativos são indicados pelos campos I, II e III. O campo P destina-se a seleç
 O código dos sensores é o seu próprio número, já para a parafusadeira o código é 15.	Por exemplo, para ligar o sensor 2 e a parafusadeira com programa 5 na etapa 1, a sequência fica a seguinte:  
 
 <!--![Screen Setup](https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img5.jpg)-->
-<img src="https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img5.jpg" width="400">
+<img src="https://raw.githubusercontent.com/natanael7/gh-assets/master/Poka-Yoke/photos/img5.jpg" width="400">
 
 Para alterar os valores, alterne entre as teclas SETA\_ESQUERDA e SETA_DIREITA, digite o número do sensor no teclado numérico e pressione ENTER. Não é possível colocar sensores repetidos na mesma etapa, nem um sensor maior do que o número de sensores configurado.  
 
@@ -147,7 +147,7 @@ Para entrar na tela de parâmetros, é necessário que se esteja na tela SETUP, 
 Aqui é possível configurar o número de sensores, parafusadeira, progbits e modelos. Para alterá-los, alterne entre as teclas SETA\_ESQUERDA e SETA_DIREITA, digite o novo valor no teclado numérico e pressione ENTER.
 
 <!--![Screen ParametersConfig2](https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img1.jpg)-->
-<img src="https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img1.jpg" width="500">
+<img src="https://raw.githubusercontent.com/natanael7/gh-assets/master/Poka-Yoke/photos/img1.jpg" width="500">
 
 Após feito as alterações, pressione a tecla MAIN ou F7 para sair.  
 
@@ -162,7 +162,7 @@ OBS: O programa altera o limite de sensores e parafusadeira conforme a disponibi
 O programa original nomeia os modelos como 1000 + número do modelo. *[1001-1015]*. Para alterar o nome para outro número, pressione a tecla ZERO [0] na tela principal. O programa entrará em Modo Edição, assim basta alternar entre as teclas SETA\_ESQUERDA e SETA_DIREITA para selecionar o modelo a ser alterado, digitar o novo nome no teclado numérico e pressionar ENTER.
 
 <!--![Screen ModelsEdition](https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img7.jpg)-->
-<img src="https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/images/img7.jpg" width="500">
+<img src="https://raw.githubusercontent.com/natanael7/gh-assets/master/Poka-Yoke/photos/img7.jpg" width="500">
 
 Feito a alteração, pressione tecla MAIN ou ESC para sair. O programa salvará e voltará a rodar o ciclo.  
 
@@ -181,10 +181,10 @@ Para editar o projeto baixe o [Arquivo ZIP] e abra o aquivo principal `poka-yoke
 ###Estrutura
 
 **POUs**  
-<img src="https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/assets/functions.png">  
+<img src="https://raw.githubusercontent.com/natanael7/gh-assets/master/Poka-Yoke/functions.png">  
 
 **TELAS**  
-<img src="https://raw.githubusercontent.com/natanael7/Poka-Yoke/master/assets/vizualizations.png">
+<img src="https://raw.githubusercontent.com/natanael7/gh-assets/master/Poka-Yoke/vizualizations.png">
 
 A pasta `exports/` contém as POUs, telas, variáveis globais e bibliotecas utilizadas separadas por arquivo para consulta do código puro.
 
@@ -196,5 +196,3 @@ O projeto Poka-Yoke genérico foi inicialmente deselvolvido e caracterizado para
 
 *Autor: Natanael Josué Rabello*  
 *Orientador: Diogo Stork Diehl*
-
-........
