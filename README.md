@@ -172,6 +172,8 @@ Feito a alteração, pressione tecla MAIN ou ESC para sair. O programa salvará 
 
 ##Programação
 
+Linguagem utilizada na programação: ST (Structured text).
+
 Para editar o projeto baixe o [Arquivo ZIP] e abra o aquivo principal `poka-yoke.pro` com o [Master Tool IEC].
 
 [Arquivo ZIP]:https://github.com/natanael7/Poka-Yoke/archive/master.zip 
@@ -196,3 +198,8 @@ O projeto Poka-Yoke genérico foi inicialmente deselvolvido e caracterizado para
 
 *Autor: Natanael Josué Rabello*  
 *Orientador: Diogo Stork Diehl*
+<<<<<<< HEAD
+=======
+
+........
+>>>>>>> bba456bc1606cbda27ce8b2c1073eaa23f435d1f
