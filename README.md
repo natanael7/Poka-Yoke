@@ -198,8 +198,5 @@ O projeto Poka-Yoke genérico foi inicialmente deselvolvido e caracterizado para
 
 *Autor: Natanael Josué Rabello*  
 *Orientador: Diogo Stork Diehl*
-<<<<<<< HEAD
-=======
 
 ........
->>>>>>> bba456bc1606cbda27ce8b2c1073eaa23f435d1f
