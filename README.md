@@ -3,14 +3,14 @@
 Programa desenvolvido para controlar sensores/postos em linhas de montagem usando CLP Altus Duo351.
 
 
-###Definição
+### Definição
 
 O objetivo deste programa é tornar, o processo de aplicação e alteração da sequência de montagem de um produto, mais rápida e facilitada pela definição desta sequência através da IHM integrada do CLP, fazendo com que não seja necessária a reprogramação do CLP a cada alteração da sequência ou aplicação de um novo posto. 
 
 É possível configurar o poka-yoke para uma quantidade variável de sensores, com ou sem parafusadeira e com o número de modelos ajustável conforme a necessidade de cada posto de montagem, utilizando-se do mesmo programa para todas aplicações.
 
 
-###Informações Técnicas
+### Informações Técnicas
 
 - Número máximo de modelos: 15 
 - Número máximo de sensores: 14 
@@ -19,7 +19,7 @@ O objetivo deste programa é tornar, o processo de aplicação e alteração da 
 - Número máximo de ativos: 3 (corresponde ao número de sensores que podem ser ligados simultaneamente – incluindo com parafusadeira). 
 - Número máximo de etapas: 12 (corresponde as etapas da sequência de montagem). 
 
-###Configuração de Entradas e Saídas
+### Configuração de Entradas e Saídas
 
 A ordem de ligação das Entradas e Saídas (CLP Altus Duo351), segue o seguinte padrão utilizado no programa: 
 
@@ -65,9 +65,9 @@ A ordem de ligação das Entradas e Saídas (CLP Altus Duo351), segue o seguinte
 
 ---
 
-##Funcionamento
+## Funcionamento
 
-###Primeira Implementação
+### Primeira Implementação
 
 Com o programa descarregado no CLP, a primeira tela apresentada será a tela de Configuração dos Parâmetros, onde é determinado o número de sensores, parafusadeira, progbits e modelos.
 
@@ -84,7 +84,7 @@ Vide tópico de Parametrização para maiores detalhes desta tela e alterações
 
 ---
 
-###Tela Principal *(operação)*
+### Tela Principal *(operação)*
 
 A tela de operação do montador apresenta os modelos, botões de controle (zerar, reset, setup) e os sensores ativos no momento.
 
@@ -103,7 +103,7 @@ O RESET (tecla F2) serve para no caso de o montador pegar uma peça errada, ent�
 
 ---
 
-###Alteração de Parâmetros e Sequência de Montagem
+### Alteração de Parâmetros e Sequência de Montagem
 
 Para entrar na tela de configurações, selecione o modelo a ser configurado e pressione a tecla F3 (indica entrada para SETUP) a partir da tela principal.  
 
@@ -121,7 +121,7 @@ Para escrever a senha, entre no campo password alternando entre as teclas SETA\_
 
 ---
 
-###Sequência de Montagem
+### Sequência de Montagem
 
 A estrutura da sequência de montagem está dividida em etapas, na qual corresponde às etapas de montagem do produto. Cada etapa pode monitorar até 3 ativos, ou seja, é possível ligar até 3 sensores, ou 2 sensores e 1 parafusadeira por etapa.  
 
@@ -140,7 +140,7 @@ Configurado a sequência, pressione a tecla MAIN ou F7 para sair. O programa sal
 
 ---
 
-###Parametrização
+### Parametrização
 
 Para entrar na tela de parâmetros, é necessário que se esteja na tela SETUP, conforme início do capítulo. Estando nela, pressione a tecla [- +/.].  
 
@@ -157,7 +157,7 @@ OBS: O programa altera o limite de sensores e parafusadeira conforme a disponibi
 
 ---
 
-###Edição do Nome dos Modelos
+### Edição do Nome dos Modelos
 
 O programa original nomeia os modelos como 1000 + número do modelo. *[1001-1015]*. Para alterar o nome para outro número, pressione a tecla ZERO [0] na tela principal. O programa entrará em Modo Edição, assim basta alternar entre as teclas SETA\_ESQUERDA e SETA_DIREITA para selecionar o modelo a ser alterado, digitar o novo nome no teclado numérico e pressionar ENTER.
 
@@ -170,7 +170,7 @@ Feito a alteração, pressione tecla MAIN ou ESC para sair. O programa salvará 
 
 ---
 
-##Programação
+## Programação
 
 Linguagem utilizada na programação: ST (Structured text).
 
@@ -180,7 +180,7 @@ Para editar o projeto baixe o [Arquivo ZIP] e abra o aquivo principal `poka-yoke
 
 [Master Tool IEC]:http://www.altus.com.br/site_ptbr/index.php?option=com_downloadsaltus&view=downloadsaltus&Itemid=54&newpath=Portugues%2FProdutos%2FMtool%2F01%20Software%2FMT8200%20-%20MasterTool%20IEC%2FSoftware) "Download Master Tool IEC"
 
-###Estrutura
+### Estrutura
 
 **POUs**  
 <img src="https://raw.githubusercontent.com/natanaeljr/gh-assets/master/Poka-Yoke/functions.png">  
@@ -192,7 +192,7 @@ A pasta `exports/` contém as POUs, telas, variáveis globais e bibliotecas util
 
 ---
 
-##Sobre
+## Sobre
 
 O projeto Poka-Yoke genérico foi inicialmente deselvolvido e caracterizado para linhas de montagem da empresa STIHL Ferramentas Motorizadas Ltda.
 
